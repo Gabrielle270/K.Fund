@@ -1,0 +1,76 @@
+.muve{
+    width: 500px;
+    height: 300px;
+    background-color:cadetblue;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.vin1{
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+}
+
+.muve:hover{
+
+    width: 1000px;
+}
+
+.t:hover{
+    font-size: 30px;
+    color:rgb(29, 20, 66)
+}
+
+
+.hub{
+
+    width: 1500px;
+    height: 500px;
+    border-radius: 20px;  
+    background-color:rgb(5, 5, 5);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+.y{
+    width: 200px;
+height: 200px;
+background-color:rgb(68, 219, 106);
+border-radius: 20px;
+transition: 1s;
+}
+
+.y{
+    animation: y 5s infinite alternate;
+}
+
+@keyframes y {
+   
+50%{
+    background-color:darkblue;
+    transform: skew(50deg);
+}
+100%{
+    background-color:rgb(178, 83, 207);
+    transform: skew(-50deg);
+}
+}
+
+.box{
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.delt{
+
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
+
+
